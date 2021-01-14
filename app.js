@@ -246,3 +246,143 @@
 // if(percentage >= 0 && percentage <= 33){
 //     document.write("Grade: F")
 // }
+
+
+
+
+
+
+
+
+
+                                                                // Changing case
+// Q1
+
+// var user = prompt("Enter");
+// user = user.toUpperCase();
+// alert(user);
+
+                                                                // Strings: measuring length and extracting parts
+
+// Q1
+
+// var phone = prompt("Your phone model");
+// alert(phone.length);
+
+// Q2
+
+// var phone = prompt("Your phone model");
+// phone = phone.charAt(phone.length - 1);
+// alert(phone);
+
+
+                                                                // Strings: finding segments
+                            
+// var text = "Pakistani";                                                          
+// for (var i = 0; i < text.length; i++) {
+//     if( text.charAt(i) === "n"){
+//         document.write(text.length);
+//     }
+// }
+
+// var user = prompt("Enter Username");
+// for ( var i = 0; i < user.length; i++ ){
+//     if ( user.charAt(i) === "@" || "!" || "," ){
+//         alert("Enter correct username");
+//         break;
+//     }
+// }
+
+// var text = "The quick brown fox jumps over the lazy dog.";
+
+// for ( var i = 0; i < text.length; i++ ){
+//     if ( text.charAt(i) === "the"){
+//         document.write(text);
+//     }
+// }
+
+                                                                //Strings: finding a character at a location
+
+// Q1
+
+// var text = "Pakistani"
+// var find = text.charAt(2);
+// document.write(find);
+
+                                                                
+                                                                // Strings: replacing characters
+
+
+// Q1
+
+// var text = "Hyderabad"
+// var newtext = text.replace("Hyder","Islam");
+// document.write(newtext);
+
+
+// Q2
+
+// var message = "Ali and Sami are best friends. They play cricket and football together.";
+// var newmessage = message.replace(/and/g,"&");
+// document.write(newmessage);
+
+
+                                                                //Rounding numbers
+
+
+// Q1
+
+// var number = 3.142;
+// var roundnumber = Math.round(number);
+// var ceilnumber = Math.ceil(number);
+// var floornumber = Math.floor(number);
+// document.write(roundnumber + "<br>" );
+// document.write(ceilnumber + "<br>" );
+// document.write(floornumber);
+
+// Q2
+
+// var number = -2.678;
+// var roundnumber = Math.round(number);
+// var ceilnumber = Math.ceil(number);
+// var floornumber = Math.floor(number);
+// document.write(roundnumber + "<br>" );
+// document.write(ceilnumber + "<br>" );
+// document.write(floornumber);
+
+
+
+                                                                //Converting strings to integers and decimals
+
+// Q1
+
+// var weight = prompt("Enter your weight");
+// var newweight = parseInt(weight);
+// document.write(newweight + " kg");
+
+                                                                //Converting strings to numbers, numbers to strings
+
+
+// Q1
+
+// var string = "472";
+// document.write(string + " is a string" + "<br>")
+// var number = Number(string);
+// document.write(number + " is now a number");
+
+// Q2
+
+// var num = 35.36;
+// var number = num.toString();
+// var number = number.replace("." , "");
+// document.write(number);
+
+
+                                                                //Controlling the length of decimals
+
+
+// Q1
+
+// var percentage = 30 / 45 * 100;
+// var total = percentage.toFixed(2);
+// document.write(total);
