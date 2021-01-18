@@ -1,4 +1,4 @@
-                                                                // Chapter 1 
+// Chapter 1 
 
 // alert("Error! Please enter a vlaid password");
 
@@ -7,7 +7,7 @@
 // alert("Welcome to JS Land");
 // alert("Happy Coding");
 
-                                                                // Chapter 2
+// Chapter 2
 
 // var username;
 
@@ -23,7 +23,7 @@
 // alert(age) ;
 // alert(course) ;
 
-                                                                // Chapter 3
+// Chapter 3
 
 
 // var age = 21 ;
@@ -41,7 +41,7 @@
 // var quantity = 5 ;
 // document.write( visitorname + " ordered " + quantity + " " + product + "(s) on XYZ Clothing store.")
 
-                                                                // Chapter 4
+// Chapter 4
 
 
 // var variable1 = 1 ;
@@ -63,7 +63,7 @@
 // document.write("Variable names are case sensitive" + "<br>") ;
 // document.write("Variable names should not be JS keywords" + "<br>") ;
 
-                                                                // Chapter 5
+// Chapter 5
 
 // var num1 = 5 ;
 // var num2 = 3 ;
@@ -99,7 +99,7 @@
 // document.write("The remainder is " + num1 ) ;
 
 
-                                                                // Chapter 6-9
+// Chapter 6-9
 
 // Q1
 
@@ -143,7 +143,7 @@
 //     }
 
 
-                                                                // Chapter 9-11
+// Chapter 9-11
 
 // Q1
 
@@ -255,14 +255,14 @@
 
 
 
-                                                                // Changing case
+// Changing case
 // Q1
 
 // var user = prompt("Enter");
 // user = user.toUpperCase();
 // alert(user);
 
-                                                                // Strings: measuring length and extracting parts
+// Strings: measuring length and extracting parts
 
 // Q1
 
@@ -276,8 +276,8 @@
 // alert(phone);
 
 
-                                                                // Strings: finding segments
-                            
+// Strings: finding segments
+
 // var text = "Pakistani";                                                          
 // for (var i = 0; i < text.length; i++) {
 //     if( text.charAt(i) === "n"){
@@ -301,7 +301,7 @@
 //     }
 // }
 
-                                                                //Strings: finding a character at a location
+//Strings: finding a character at a location
 
 // Q1
 
@@ -309,8 +309,8 @@
 // var find = text.charAt(2);
 // document.write(find);
 
-                                                                
-                                                                // Strings: replacing characters
+
+// Strings: replacing characters
 
 
 // Q1
@@ -327,7 +327,7 @@
 // document.write(newmessage);
 
 
-                                                                //Rounding numbers
+//Rounding numbers
 
 
 // Q1
@@ -352,7 +352,7 @@
 
 
 
-                                                                //Converting strings to integers and decimals
+//Converting strings to integers and decimals
 
 // Q1
 
@@ -360,7 +360,7 @@
 // var newweight = parseInt(weight);
 // document.write(newweight + " kg");
 
-                                                                //Converting strings to numbers, numbers to strings
+//Converting strings to numbers, numbers to strings
 
 
 // Q1
@@ -378,7 +378,7 @@
 // document.write(number);
 
 
-                                                                //Controlling the length of decimals
+//Controlling the length of decimals
 
 
 // Q1
@@ -386,3 +386,111 @@
 // var percentage = 30 / 45 * 100;
 // var total = percentage.toFixed(2);
 // document.write(total);
+
+
+
+
+
+// var today = new Date();
+
+// var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+// alert(date);
+
+//Date
+
+// var date = new Date();
+// var n = date.toDateString();
+// var time = date.toLocaleTimeString();
+// document.write('Date: ', n + "<br>");
+// document.write('Time: ',time);
+//Funtions
+
+
+//Q1
+
+// function time(){
+//     var date = new Date();
+//     var n = date.toDateString();
+//     var time = date.toLocaleTimeString();
+//     document.write('Date: ', n + "<br>");
+//     document.write('Time: ',time);
+// }
+
+// time();
+
+
+//Q2
+
+// function user(){
+//     var first = prompt("Enter first name");
+//     var last = prompt("Enter last name");
+//     alert("Greetings " + first + " " + last )
+
+// }
+// user();
+
+
+//Q3
+
+// function sum(num1,num2){
+//     var sum = num1 + num2
+//     alert(sum);
+// }
+// sum(2,5);
+
+//Calculator
+
+//Q4
+// function calculator(){
+//     var num1 = parseInt(prompt("Enter first number"));
+//     var num2 = parseInt(prompt("Enter 2nd number"));
+//     var operator = prompt("Enter operator")
+//     var sum = num1 + operator + num2
+//     alert(sum);
+// }
+
+// calculator();
+
+// Q5
+
+// function squareNumber(num) {
+//     var squaredNumber = num * num;
+//     return squaredNumber;
+// }
+// var d = squareNumber()
+// alert(squareNumber(9))
+
+// Q6
+
+// function factorial(x) 
+// { 
+
+//   if (x === 0)
+//  {
+//     return 1;
+//  }
+//   return x * factorial(x-1);
+
+// }
+// alert(factorial(5));
+
+//Q8
+
+// function hypotenuse() {
+//     var base = prompt("Enter Base");
+//     var perp = prompt("Enter Perpendicular")
+//     var hypo = base * base + perp * perp;
+//     var hypot = Math.sqrt(hypo);
+//     alert(hypot);
+// } 
+//  hypotenuse();
+
+
+// Q9
+
+// function area(width,height){
+//     var area = width * height;
+//     alert(area);
+
+// }
+// area(2,2)
